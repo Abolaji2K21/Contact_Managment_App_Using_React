@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import Home from "../pages/Home";
+import Home from "../pages/home";
 
 export const ROUTE = [
 
