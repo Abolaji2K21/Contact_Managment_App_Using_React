@@ -8,6 +8,8 @@ const Layout = () => {
             <Navbar/>
             <Outlet/>
             <Footer/>
+
+            {/*done*/}
         </>
 
     )
