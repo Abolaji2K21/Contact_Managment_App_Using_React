@@ -1,0 +1,55 @@
+.footer{
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+    padding: 40px 30px 40px 30px;
+}
+
+.LastFooter{
+    background-color: violet;
+    padding: 15px;
+}
+.LastFooter::placeholder{
+    color: violet;
+}
+
+.container {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    /*display: flex;*/
+}
+.container > p{
+    align-self: end;
+
+}
+
+.container > h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding-top:50px;
+}
+
+.container > div > h2{
+    position: absolute;
+    width: 100%;
+    color: violet;
+}
+.phoneLogo {
+    /*position: absolute;*/
+    top: -1px;
+    /*left: -1296px;*/
+    width: 50px;
+    height: auto;
+    justify-items: start;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+/*.appName {*/
+/*    top: 26px;*/
+/*    left: -700px;*/
+/*}*/

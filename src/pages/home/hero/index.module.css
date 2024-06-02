@@ -1,0 +1,13 @@
+.heroSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 40px 30px;
+
+}
+
+.heroSection > div > h1{
+    color: #ffffff;
+    font-size:35px;
+    font-weight:bolder;
+}
+
