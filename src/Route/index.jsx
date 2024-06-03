@@ -28,7 +28,7 @@ export const ROUTE = [
                 element: <Features/>
             },
             {
-                path: "/contact.html",
+                path: "/contact-Us",
                 element: <ContactUs/>
             }
 

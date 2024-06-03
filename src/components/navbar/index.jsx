@@ -15,8 +15,8 @@ const Navbar = () => {
             <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '40px'}}>
                 <Link to={"/home"}>HOME</Link>
                 <Link to={"/about"}>ABOUT</Link>
-                <a href="features">FEATURES</a>
-                <a>CONTACT US</a>
+                <Link to={"/features"}>FEATURES</Link>
+                <Link to={"/contact-Us"}>CONTACT US</Link>
             </div>
 
             <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px'}}>
