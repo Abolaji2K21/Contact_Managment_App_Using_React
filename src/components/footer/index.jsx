@@ -18,7 +18,7 @@ const Footer = () => {
         <>
             <div className={style.footer} >
                 <div>
-                    <div style={{display: "flex", alignItems: "center"}} >
+                    <div style={{display: "flex", alignItems: "center", gap:"5px"}} >
                         <img src={PhoneOne} alt="PhoneOne Logo" className={style.phoneLogo} />
                         <p style={{color: "violet", alignSelf:"end"}}>Contact_Made_Easy</p>
                     </div>
