@@ -12,14 +12,14 @@ const Navbar = () => {
                 <p className={style.appName}>Contact_Made_Easy</p>
             </div>
 
-            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '40px'}}>
+            <div className={style.links} >
                 <Link to={"/home"}>HOME</Link>
                 <Link to={"/about"}>ABOUT</Link>
                 <Link to={"/features"}>FEATURES</Link>
                 <Link to={"/contact-Us"}>CONTACT US</Link>
             </div>
 
-            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '10px'}}>
+            <div className={style.Authentication}  >
                 <a href="login.html">LOGIN</a>
                 <a href="signUpPage.html" className={style.signup}>SIGNUP</a>
             </div>

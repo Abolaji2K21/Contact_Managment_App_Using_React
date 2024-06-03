@@ -4,7 +4,7 @@ const SectionA = () => {
     return (
         <div className={style.subHeroSection}>
             <div>
-                <h3>What Sets Us Apart <span style={{color: "#4caf4f", display: "block"}}> </span></h3>
+                <h3>What Sets Us Apart <span style={{color: "#4caf4f", display: "block", marginTop: "50px", paddingTop: "20px"}}> </span></h3>
                 <ul>
                     <li>User-Centric Design: We prioritize user experience in everything we do. Our interface is
                         designed to be intuitive and easy to navigate, ensuring that you can access the information you

@@ -53,3 +53,9 @@
 /*    top: 26px;*/
 /*    left: -700px;*/
 /*}*/
+
+@media screen and (max-width: 728px) {
+    .footer{
+        flex-direction: column;
+    }
+}

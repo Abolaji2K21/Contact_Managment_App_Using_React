@@ -11,3 +11,20 @@
     font-weight:bolder;
 }
 
+@media screen and (max-width: 728px) {
+    .heroSection{
+        flex-direction: column;
+        padding: 0 30px 40px 30px;
+
+
+    }
+
+    .heroSection p {
+        text-align: justify;
+    }
+
+    .heroSection> div >h1{
+        margin-bottom: 15px;
+    }
+}
+

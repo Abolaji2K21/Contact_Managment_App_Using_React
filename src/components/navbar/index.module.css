@@ -92,6 +92,28 @@
     background-color: #03130a;
     padding: 13px 23px;
 }
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px
+}
+.Authentication{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px
+}
+
+@media screen and (max-width: 728px) {
+    .links{
+        display: none;
+    }
+    .Authentication{
+        display: none;
+    }
+
+}
 
 
 

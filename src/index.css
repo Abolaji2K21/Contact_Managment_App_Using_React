@@ -11,10 +11,10 @@ body {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
-  align-items: center;
+  justify-content: center;
+  /*align-items: center;*/
   min-height: 100vh;
   background-size: cover;
-  background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-image: url('https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
 
 }
