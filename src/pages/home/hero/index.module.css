@@ -11,11 +11,12 @@
     font-weight:bolder;
 }
 
+
 @media screen and (max-width: 728px) {
     .heroSection{
         flex-direction: column;
         padding: 0 30px 40px 30px;
-
+        gap: 20px;
 
     }
 

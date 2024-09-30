@@ -54,8 +54,21 @@
 /*    left: -700px;*/
 /*}*/
 
+.MediaFooter{
+    display: flex;
+    gap: 100px
+
+}
 @media screen and (max-width: 728px) {
     .footer{
         flex-direction: column;
+    }
+    .LastFooter{
+        flex-direction: column;
+    }
+    .MediaFooter{
+        flex-direction: column;
+        gap: 20px
+
     }
 }

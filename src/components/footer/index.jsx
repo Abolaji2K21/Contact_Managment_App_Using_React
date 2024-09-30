@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div style={{display: 'flex', gap: '100px'}}>
+                <div className={style.MediaFooter}>
                     <div>
                         <h3 style={{color: 'violet'}}>Company</h3>
                         <p style={{color: 'violet' }}>About us</p>
